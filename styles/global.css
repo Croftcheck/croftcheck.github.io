@@ -32,4 +32,24 @@ body {
       color: #006600;
       border-bottom: 5px solid #006600; }
 
+.social-icon {
+  fill: #808080;
+  height: 3em; }
+  .social-icon #linkedin-icon, .social-icon #facebook-icon, .social-icon #twitter-icon, .social-icon #mail-icon {
+    transition: all .25s ease; }
+  .social-icon:hover #linkedin-icon, .social-icon:hover #facebook-icon, .social-icon:hover #twitter-icon, .social-icon:hover #mail-icon {
+    fill: #006600; }
+
+.container {
+  max-width: 100%;
+  text-align: center;
+  margin: 1em;
+  box-sizing: border-box; }
+
+.contact ul {
+  list-style-type: none; }
+  .contact ul li {
+    display: inline-block;
+    margin: .5em; }
+
 /*# sourceMappingURL=global.css.map */
