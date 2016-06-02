@@ -1,5 +1,5 @@
 body {
-  font-family: 'Roboto Slab', Georgia, serif; }
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif; }
 
 .heading, .nav, h2, h3, h1, ul, li {
   padding: 0;
@@ -7,9 +7,9 @@ body {
 
 .header {
   text-align: center;
-  margin-top: 5em; }
+  margin-top: 2em; }
   .header h1, .header h3 {
-    font-family: 'Open Sans', Helvetica, Arial, sans-serif; }
+    font-family: 'Roboto Slab', Georgia, serif; }
   .header h1 {
     color: #006600; }
   .header h3 {
@@ -40,16 +40,37 @@ body {
   .social-icon:hover #linkedin-icon, .social-icon:hover #facebook-icon, .social-icon:hover #twitter-icon, .social-icon:hover #mail-icon {
     fill: #006600; }
 
-.container {
-  max-width: 100%;
-  text-align: center;
-  margin: 1em;
-  box-sizing: border-box; }
-
-.contact ul {
+.no-bullets {
   list-style-type: none; }
-  .contact ul li {
+
+.indented {
+  margin-left: 1.5em; }
+
+.container {
+  margin: 1em auto;
+  box-sizing: border-box;
+  width: 100%;
+  padding: .5em;
+  max-width: 50.94em;
+  line-height: 1.5em; }
+
+.contact {
+  text-align: center; }
+  .contact li {
     display: inline-block;
-    margin: .5em; }
+    margin: 1.5em; }
+
+.resume section {
+  margin-bottom: 1em;
+  padding: .5em; }
+.resume .experience-item {
+  margin-bottom: .75em; }
+.resume .second-experience-item {
+  margin-top: .75em; }
+.resume h3 {
+  color: #006600;
+  margin-bottom: .5em; }
+.resume .resume-title {
+  font-weight: 600; }
 
 /*# sourceMappingURL=global.css.map */

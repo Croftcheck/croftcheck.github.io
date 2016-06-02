@@ -4,7 +4,7 @@ $grey-50: #808080;
 $grey-70: #333333;
 
 body {
-  font-family: 'Roboto Slab', Georgia, serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 
 .heading, .nav, h2, h3, h1, ul, li {
@@ -14,9 +14,10 @@ body {
 
 .header {
   text-align: center;
-  margin-top: 5em;
+  margin-top: 2em;
   h1, h3 {
-    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+
+    font-family: 'Roboto Slab', Georgia, serif;
   }
   h1 {
     color: $accent;
@@ -70,20 +71,56 @@ body {
 
 }
 
+.no-bullets {
+  list-style-type: none;
+}
+
+.indented {
+  margin-left: 1.5em;
+}
+
+
 .container {
-  max-width: 100%;
-  text-align: center;
-  margin: 1em;
+  margin: 1em auto;
   box-sizing: border-box;
+  width: 100%;
+  padding: .5em;
+  max-width: 50.94em;
+  line-height: 1.5em;
+
+
 }
 
 .contact {
-  ul {
-    list-style-type: none;
+  text-align: center;
     li{
       display: inline-block;
-      margin: .5em;
+      margin: 1.5em;
     }
+
+}
+
+.resume {
+
+  section {
+    margin-bottom: 1em;
+    padding: .5em;
   }
 
+  .experience-item {
+    margin-bottom: .75em;
+  }
+
+  .second-experience-item {
+    margin-top: .75em;
+  }
+
+  h3{
+    color: $accent;
+    margin-bottom: .5em;
+  }
+
+  .resume-title {
+    font-weight: 600;
+  }
 }
