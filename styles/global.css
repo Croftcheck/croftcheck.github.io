@@ -147,4 +147,7 @@ body {
     width: calc(65% - 4.5em);
     float: right; } }
 
+.underline {
+  text-decoration: underline; }
+
 /*# sourceMappingURL=global.css.map */
