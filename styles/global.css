@@ -82,6 +82,13 @@ body {
 .work {
   display: flex;
   flex-direction: column; }
+  .work p a:link, .work p a:visited {
+    color: #006600;
+    text-decoration: none;
+    border-bottom: 1px solid #006600; }
+  .work p a:active, .work p a:hover {
+    color: #808080;
+    border-bottom: 1px solid #808080; }
   .work .work-left, .work .work-right {
     box-sizing: border-box;
     margin-top: 2em;
@@ -102,6 +109,10 @@ body {
       padding-left: .5em; }
     .work .second-nav a:hover, .work .second-nav a:active {
       border-left: 6px solid #006600; }
+  .work .post-footer-info {
+    font-style: italic;
+    margin-top: 2em;
+    font-size: .8em; }
   @media (min-width: 56.9em) {
     .work {
       flex-direction: row; }

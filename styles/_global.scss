@@ -145,6 +145,20 @@ body {
   display: flex;
   flex-direction: column;
 
+  p a {
+    &:link, &:visited {
+      color: $accent;
+      text-decoration: none;
+      border-bottom: 1px solid $accent;
+    }
+
+    &:active, &:hover {
+      color: $grey-50;
+      border-bottom: 1px solid $grey-50;
+    }
+  }
+
+
   .work-left, .work-right {
     box-sizing: border-box;
     margin-top: 2em;
@@ -182,6 +196,12 @@ body {
       }
     }
 
+  }
+
+  .post-footer-info {
+    font-style: italic;
+    margin-top: 2em;
+    font-size: .8em;
   }
 
   @media (min-width: 56.9em){
