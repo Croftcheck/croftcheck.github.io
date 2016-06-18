@@ -269,17 +269,18 @@ body {
 
     .headshot {
       max-width: 95%;
+      margin-top: 3em;
     }
 
     .about-left {
-      max-width: 35%;
+      max-width: 25%;
       float: left;
       overflow: hidden;
       margin-right: 0em;
     }
 
     .about-right {
-      width: calc(65% - 4.5em);
+      width: calc(75% - 5.5em);
       float: right;
     }
 

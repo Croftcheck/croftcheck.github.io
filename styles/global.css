@@ -152,14 +152,15 @@ body {
   max-height: 20em; }
 @media (min-width: 36.75em) {
   .about .headshot {
-    max-width: 95%; }
+    max-width: 95%;
+    margin-top: 3em; }
   .about .about-left {
-    max-width: 35%;
+    max-width: 25%;
     float: left;
     overflow: hidden;
     margin-right: 0em; }
   .about .about-right {
-    width: calc(65% - 4.5em);
+    width: calc(75% - 5.5em);
     float: right; } }
 
 .underline {
