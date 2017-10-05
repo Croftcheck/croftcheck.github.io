@@ -18,7 +18,8 @@ body {
 .header {
   text-align: center;
   margin-top: 2em; }
-  .header h1, .header h3 {
+  .header h1,
+  .header h3 {
     font-family: 'Roboto Slab', Georgia, serif; }
   .header h1 {
     color: #006600; }
@@ -41,7 +42,10 @@ body {
   height: 3em; }
   .social-icon #linkedin-icon, .social-icon #facebook-icon, .social-icon #twitter-icon, .social-icon #mail-icon {
     transition: all .25s ease; }
-  .social-icon:hover #linkedin-icon, .social-icon:hover #facebook-icon, .social-icon:hover #twitter-icon, .social-icon:hover #mail-icon {
+  .social-icon:hover #linkedin-icon,
+  .social-icon:hover #facebook-icon,
+  .social-icon:hover #twitter-icon,
+  .social-icon:hover #mail-icon {
     fill: #006600; }
 
 .no-bullets {
@@ -70,14 +74,14 @@ body {
   margin-left: 1.5em;
   margin-right: 1.5em; }
 .resume .experience-item {
-  margin-bottom: .75em; }
+  margin-bottom: 0.75em; }
 .resume .second-experience-item {
-  margin-top: .75em; }
+  margin-top: 0.75em; }
 .resume h3 {
   color: #006600;
-  margin-bottom: .5em; }
+  margin-bottom: 0.5em; }
 .resume .resume-title {
-  font-weight: 600; }
+  font-weight: bold; }
 
 .work {
   display: flex;
@@ -89,7 +93,8 @@ body {
   .work p a:active, .work p a:hover {
     color: #808080;
     border-bottom: 1px solid #808080; }
-  .work .work-left, .work .work-right {
+  .work .work-left,
+  .work .work-right {
     box-sizing: border-box;
     margin-top: 2em;
     margin: 1.5em; }
@@ -101,18 +106,18 @@ body {
   .work .second-nav {
     text-align: center; }
     .work .second-nav li {
-      padding: .5em;
+      padding: 0.5em;
       display: inline-block; }
     .work .second-nav a:link, .work .second-nav a:visited {
       border-left: 2px solid #808080;
-      margin: .5em;
-      padding-left: .5em; }
+      margin: 0.5em;
+      padding-left: 0.5em; }
     .work .second-nav a:hover, .work .second-nav a:active {
       border-left: 6px solid #006600; }
   .work .post-footer-info {
     font-style: italic;
     margin-top: 2em;
-    font-size: .8em; }
+    font-size: 0.8em; }
   @media (min-width: 56.9em) {
     .work {
       flex-direction: row; }
@@ -145,7 +150,7 @@ body {
 .about .headshot {
   display: block;
   margin: 0 auto;
-  border: 4px solid #808080;
+  border: 4px solid #006600;
   border-radius: 5%;
   max-width: 10em;
   margin-bottom: 2em;
